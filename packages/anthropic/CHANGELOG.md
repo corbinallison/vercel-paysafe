@@ -1,5 +1,35 @@
 # @ai-sdk/anthropic
 
+## 4.0.19
+
+### Patch Changes
+
+- 01a596a: fix (provider/anthropic): use current-generation capability defaults for unrecognized Claude model IDs while retaining conservative defaults for legacy Claude and non-Claude models.
+
+## 4.0.18
+
+### Patch Changes
+
+- 97de198: Warn when an unknown model uses the default 4096 max output token limit.
+
+## 4.0.17
+
+### Patch Changes
+
+- b72fc7c: fix(amazon-bedrock): sanitize unsupported JSON Schema constraints in native Anthropic structured output
+- 9218ebe: fix(provider/anthropic): warn when parallel tool use is requested with JSON tool structured output
+- Updated dependencies [02ffdcb]
+- Updated dependencies [76cb673]
+  - @ai-sdk/provider-utils@5.0.12
+
+## 4.0.16
+
+### Patch Changes
+
+- afcf19c: fix(provider/anthropic): preserve web search citations when replaying assistant messages
+- Updated dependencies [cd06458]
+  - @ai-sdk/provider-utils@5.0.11
+
 ## 4.0.15
 
 ### Patch Changes
